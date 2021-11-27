@@ -83,6 +83,7 @@ public class Debug {
      * @return Returns the list of routiong debug messages
      */
     public static List<String> getRoutingDebug(SessionContext ctx) {
+        // test
         List<String> rd = (List<String>) ctx.get("routingDebug");
         if (rd == null) {
             rd = new ArrayList<String>();
